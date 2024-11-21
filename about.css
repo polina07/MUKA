@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Jua";
+    src: url(src/fonts/Jua/Jua-Regular.ttf);
+}
+.header{
+    max-height: 85px;
+    background-color: #E7DCA4;
+    box-shadow: 0px 0px 10px #A1927D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    list-style: none;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+body{
+    background-color: #E6DBA3 ;
+}
+
+a{
+    font-family: "Jua", sans-serif;
+}
+.AboutUs h1{
+    font-size: 64px;
+    text-align: center;
+    font-family: "Jua", sans-serif;
+    margin-top: 204px;
+    margin-bottom: 54px;
+}
+.AboutMUKA{
+    background-color: #CABE84;
+    width: 1190px;
+    padding: 19px 28px;
+    display: flex;
+    border-radius: 12px;
+    margin-bottom: 54px;
+}
+.aboutMUKA_information{
+    color: #736E51;
+    font-family: "Jua", sans-serif;
+    margin-left: 36px;
+}
+.aboutMUKA_information p{
+    font-size: 32px;
+}
+.aboutMUKA_information h2{
+    font-size: 64px;
+}
+
+/*Our Skills*/
+
+.Out_Skills_information{
+    background-color: #CABE84;
+    width: 542px;
+    padding: 36px 10px 36px 36px;
+    border-radius: 12px;
+    color: #736E51;
+    font-family: "Jua", sans-serif;
+    margin-bottom: 54px;
+}
+
+.Out_Skills_information h2{
+    font-size: 64px;
+}
+
+.Out_Skills_information ul li{
+    font-size: 32px;
+}
+.company_information{
+    background-color: #CABE84;
+    width: 542px;
+    padding: 36px 36px;
+    border-radius: 12px;
+    margin-bottom: 54px;
+}
+
+.dwa_kwadrata{
+    display: flex;
+    justify-content: space-between;
+}
+.info_1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 48px;
+    color: #000000;
+    font-family: "Jua", sans-serif;
+}
+.info_2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 48px;
+    color: #000000;
+    font-family: "Jua", sans-serif;
+}
+.produce_milk :first-child{
+    font-size: 64px;
+}
+.produce_milk :last-child{
+    font-size: 32px;
+    color: #736E51;
+}
+
+/*START BUYING*/
+
+.foto_BG{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(src/images/OPA.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1240px;
+    height: 533px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.foto_BG p{
+    color: #F6ECD1;
+    font-family: "Jua", sans-serif;
+    font-size: 64px;
+    margin-top: 184px;
+}
+.start_buying_button{
+    margin-bottom: 134px;
+    width: 330px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #C9BE84;
+    border-radius: 12px;
+    border: 3px solid #faf0d4;
+    size: 25px;
+    font-family: "Jua", sans-serif;
+    font-size: 40px;
+    transition: .3s;
+}
+.start_buying_button2{
+    text-decoration: none;
+    color: #736E51;
+    transition: .3s;
+}
+.start_buying_button2:hover{
+    color: #F6ECD1;
+}
+.start_buying_button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F6ECD1;
+    border: 3px solid #F6ECD1;
+}
+
+/*footer*/
+
+footer{
+    background-color: #736E51;
+    background-image: url(src/images/Line_for_footer.svg);
+    background-repeat: repeat-x;
+}
+
+.footer_contacts{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.muka_contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    color: #E6DBA3;
+    font-family: "Jua", sans-serif;
+    font-size: 28px;
+}
+.muka_contacts_Second{
+    flex-direction: column;
+    display: flex;
+}
+
+.muka_contacts_Second a{
+    text-decoration: none;
+    color: #E6DBA3;
+}

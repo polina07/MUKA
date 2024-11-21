@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Jua";
+    src: url(src/fonts/Jua/Jua-Regular.ttf);
+}
+
+.header{
+    max-height: 85px;
+    background-color: #E7DCA4;
+    box-shadow: 0px 0px 10px #A1927D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    list-style: none;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+body{
+    background-color: #E6DBA3 ;
+}
+
+a{
+    font-family: "Jua", sans-serif;
+}
+
+.Cow_img{
+   margin-top: 284px;
+}
+
+.Cow_img img{
+    width: 100%;
+}
+
+.start_titel :first-child{
+    font-size: 64px;
+    position: absolute;
+    font-family: "Jua", sans-serif;
+    top: 204px;
+    margin-left: 160px;
+}
+
+.start_titel :last-child{
+    font-size: 64px;
+    position: absolute;
+    font-family: "Jua", sans-serif;
+    top: 284px;
+    margin-left: 160px;
+    color: rgba(0, 0, 0, 0.500);
+}
+
+.start .container{
+    background-image: url(./src/images/Group\ 4.svg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    position: relative;
+}
+
+.order_button{
+    font-family: "Jua", sans-serif;
+    margin-top: 400px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.order_button a{
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #F6ECD1;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.btn{
+    text-decoration: none;
+    font-size: 64px;
+    padding: 10px 72px;
+    display: inline-block;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+    transition: .3s;
+}
+.order_button a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F6ECD1;
+    border: 4px solid #F6ECD1;
+}
+
+.wolna{
+    position: absolute;
+    top: 320px;
+    left: 660px;
+}
+
+.subscriptions .container{
+   padding-top: 150px;
+   padding-bottom: 150px;
+}
+
+
+.subscriptions__title{
+    margin-bottom: 24px;
+    color: black;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+}
+
+.subscriptions__information{
+    margin-bottom: 84px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    font-family: "Jua", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.subscriptions__pack{
+    justify-content: center;
+    text-align: center;
+    gap: 88px;
+    display: flex;
+}
+
+.subscriptions__offer{
+    background-color: #F6ECD1;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 16px;
+    width: 330px;
+    padding: 33px;
+    z-index: 1;
+    font-family: "Jua", sans-serif;
+}
+.subscriptions__offer p{
+    font-size: 32px;
+    color: #000000;
+}
+.monney{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.monney span{
+    font-size: 48px;
+    color: #000000;
+}
+.liste2{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 25px;
+    margin-left:10px;
+}
+.btn__order{
+    border-radius: 6px;
+    box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(0, 0, 0);
+    padding: 16px 28px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #F6ECD1;
+    transition: .3s;
+    border: 3px solid #000000;
+    
+}
+.btn__order:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F6ECD1;
+    border: 3px solid #F6ECD1;
+}
+
+.MonthlyBulkPlan{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.prime{
+    background-color: #0000007e;
+    
+}
+.prime p{
+    color: #F6ECD1;
+}
+.prime .monney span{
+    color: #F6ECD1;
+}
+.prime .btn__order{
+    background-color:  #F6ECD1;
+    color: black;
+}
+
+
+.prime .btn__order:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F6ECD1;
+    border: 3px solid #F6ECD1;
+}
+
+
+/*swiper*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    background-color: #E6DBA3;
+    border-radius: 13px;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #E6DBA3;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+}
+.swiper_block{
+    position: relative;
+}
+.custom_arrow_left{
+    left: -100px;
+}
+.custom_arrow_right{
+    right: -100px;
+}
+.custom_arrow_left, .custom_arrow_right{
+    cursor: pointer;
+    position: absolute;
+    top: calc(50% - 35px);
+    transition: .3s;
+}
+.custom_arrow_left:hover, .custom_arrow_right:hover{
+    transform: scale(1.1);
+}
+.our_milk_titel {
+    margin-bottom: 24px;
+    color: black;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    margin-bottom: 124px;
+}
+
+.our_milk{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.subscriptions {
+    padding-bottom: 100px;
+}
+
+/*delivery*/
+
+.delivery__information{
+    margin-bottom: 84px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    font-family: "Jua", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.delivery__title{
+    margin-bottom: 24px;
+    color: black;
+    font-size: 64px;
+    font-family: "Jua", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+}
+
+
+.delivery{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.personal__info{
+    display: flex;
+    align-items: center;
+}
+
+form {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+form input, form button, form select{
+    width: 530px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #F6ECD1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    border: 3px solid #000000;
+    size: 25px;
+    font-family: "Jua", sans-serif;
+    font-size: 24px;
+    margin-bottom: 25px;
+    z-index: 1;
+}
+
+input::placeholder{ 
+    color: #F6ECD1;
+}
+
+form button{
+    background-color: #F6ECD1;
+    color: #000000;
+    transition: .3s;
+}
+
+.reserve_button:hover{
+    background-color: #000000c8;
+    color: #F6ECD1;
+}
+
+/* footer */
+
+footer{
+    background-color: #736E51;
+    background-image: url(src/images/Line_for_footer.svg);
+    background-repeat: repeat-x;
+}
+
+.work_time{
+    color: #E6DBA3;
+    font-family: "Jua", sans-serif;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.work_time p{
+    margin-bottom: 20px;
+}
+
+.footer_map{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.footer_contacts{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.muka_contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    color: #E6DBA3;
+    font-family: "Jua", sans-serif;
+    font-size: 28px;
+}
+.muka_contacts_Second{
+    flex-direction: column;
+    display: flex;
+}
+
+.muka_contacts_Second a{
+    text-decoration: none;
+    color: #E6DBA3;
+}
+
+/*modal*/
+
+.modal_bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000007e;
+    z-index: 10;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jua", sans-serif;
+}
+.modal{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #F6ECD1;
+    text-align: center;
+}
+.modal h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.modal p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0000007b;
+}
+.ok_btn{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F6ECD1;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.ok_btn:hover{
+    background-color: #000000c8;
+    color: #F6ECD1;
+}
